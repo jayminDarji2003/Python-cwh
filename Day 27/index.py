@@ -23,6 +23,7 @@ options = [
 ]
 
 correct_answers = ["C", "D", "A", "C", "A"]
+
 money = [10000, 20000, 40000, 160000, 400000]
 
 # Main game loop
