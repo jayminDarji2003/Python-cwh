@@ -23,3 +23,8 @@ print(c)
 # print(dir(math))
 for i in dir(math):
     print(i)
+
+# importing user defined module jay
+from jay import welcome,jay
+welcome()
+print(jay)
