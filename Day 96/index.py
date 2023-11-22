@@ -28,7 +28,7 @@ async def main():
         # Create tasks for each image download
         tasks = []
         for i, url in enumerate(image_urls):
-            filename = f"image_{i+1}.jpg"
+            filename = f"Day 96/image_{i+1}.jpg"
             tasks.append(download_image(session, url, filename))
 
         # Execute the tasks concurrently
